@@ -1,0 +1,90 @@
+package SeleniumSessions;
+
+public class Car {
+	
+	//whenever you have common property value(wheels = 4) (4 is value of variable) , the property should be define as static.
+	//Java will create only one common copy of static variable
+	//static variables and methods stored in Common Memory Allocation (CMA)
+	//static cannot be used for local variables.
+	//static can only be used for class variables which can have common property value.
+	//final keyword -> can be used for class and local variables.
+	//final -> we can not change the value.
+	//final keyword variable should declare a value.
+	
+	String name;
+	int price;
+	String color;
+	static final int wheels = 4;  // but with final keyword variable should have value.  
+	static  int steering;    // it is not mandatory to assign value for static variable at the beginning.
+	
+	static int i = 50;
+	
+	public void start() {
+		System.out.println("Car--start");
+	}
+	
+	public static void speedTest() {
+		System.out.println("Car--speedTest");
+	}
+
+	public static void main(String[] args) {
+		
+		final int i = 10;
+		
+		final int days = 7; //(days in a week , final-> can not be changed)
+		//days = 10;
+		System.out.println(days * 100);
+		
+		Car c1 = new Car();
+		c1.name = "BMW";
+		c1.price = 90;
+		c1.color = "Red";
+	//	c1.wheels = 4;   //wheels are common for all object
+		
+		Car c2 = new Car();
+		c2.name = "Audi";
+		c2.price = 98;
+		c2.color = "white";
+	//	c2.wheels = 4;
+		
+		Car c3 = new Car();
+		c3.name = "Honda";
+		c3.price = 20;
+		c3.color = "Black";
+	//	c3.wheels = 4;
+				
+		//how to access/assign static variables:
+		//1. direct calling:
+		System.out.println(wheels);
+		System.out.println(c1.name + " " + c1.price + " " + c1.color + " " + wheels);
+
+		//2. by using class name: (correct way of calling static variable)
+		System.out.println(Car.wheels);
+		System.out.println(c1.name + " " + c1.price + " " + c1.color + " " +Car.wheels);
+
+		//how to call static methods:
+		//no need to use the object
+		//1. direct calling:
+		speedTest();
+		c1.start();   //non-static method
+		
+		//2. by using class name:
+		Car.speedTest();
+		
+		
+		//static stuff can be accessed by obj ref name with warning:
+		c1.speedTest();  
+		//you can call static method by using object, but it give you warning
+		//The static method speedTest() from the type Car should be accessed in a static way.
+		System.out.println(c1.wheels);
+	
+		//Car.wheels = 5; //we can not assign/change the value of static variable when we use final keyword.
+		
+		Car.steering = 1;
+		System.out.println(Car.steering);
+		
+		System.out.println(Application.i);  //Application different class
+		System.out.println(Car.i);
+	}
+
+}
