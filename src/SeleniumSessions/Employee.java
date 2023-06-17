@@ -38,12 +38,15 @@ public class Employee {
 		e3.name = "Naveen"; */  //NPE
 		// whenever apply any method or variables on null , it start giving Null pointer exception
 		
-		new Employee();  // new Object created without name. we can not assign name without ref variable
+		new Employee();  // new Object created without name. we can not assign name without ref variable //this is called no reference object
 		// not good idea create without create ref variable name
-		new Employee().name = "Naveen";
-		new Employee().age = 25;
+		new Employee().name = "Naveen";  //this is new object
+		new Employee().age = 25;         //this is one more new object
 		
 		
 	}
 
 }
+
+//Object reference name cannot be duplicate.
+

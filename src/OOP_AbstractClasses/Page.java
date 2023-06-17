@@ -16,7 +16,7 @@ public abstract class Page implements Web{
 	//but we can create the constructor of the abstract class
 	//and constructor will be called when we create the object of child class
 	
-	//when parent and child class both having constructor,while creating Obj 
+	//when parent and child class both having constructor,while creating Obj of child class 
 	//first the preference will be given to parent class const..(Page) then child class(LoginPage)
 	//parent class const.. will be called first and 2nd child class const..
 	
@@ -34,8 +34,11 @@ public abstract class Page implements Web{
 	//qs: who/how will call parameterized const.. in parent class? super keyword (use in child class) come into the picture. we will see later.
 	//this concepts little confuse but it 
 	
+	//multiple inheritance not possible in Abstract class.means
+	//Abstract class can have(extends) only one parent class and can implement multiple interfaces.
+	
 	public Page() {
-	//	this(20);   //using this keyword we can call parameterized const..
+		this(20);   //using this keyword we can call parameterized const..
 		System.out.println("Page - const...");
 	}
 	

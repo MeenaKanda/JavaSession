@@ -17,8 +17,11 @@ public class User {
 	// the moment we add parameterized const.. Java will not call default/hidden
 	// const..
     //using this keyword we can access only class variables
-	//const.. used to restricting the unnecessary Object
+	//const.. used to restricting the unnecessary Object creation. if you have a data create an object.
 	//const.. don't have business logic
+	//constructor => help me to construct the object.every obj have its own information(data)
+	
+	//this keyword is used to initialize the class variable in the form of constructor
 	
 	public boolean forgotPwd() {
 		//business logic

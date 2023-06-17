@@ -8,7 +8,7 @@ public class LoopConcept {
 		// 1. while:
 
 		int i = 1;
-		while (i <= 10) { // inside while conditon always boolean
+		while (i <= 10) { // inside while condition always boolean
 			System.out.println(i);
 			// i++;
 			// ++i;
@@ -131,7 +131,16 @@ public class LoopConcept {
 			score1++;
 		}
 		
-		
 	}
+	
+	//while loop use cases:
+	// 1. when number of iteratin are not fixed.
+	//2. infinite loading: linkedin, swiggy, facebook
+	//3. waiting for the page load: 5sec, 10 sec, 15 sec
+	//4. wait for element on the page: 5,0 15, 20
+	// 5.calendar handling
+	// 6. pagination in webtable
 
 }
+
+

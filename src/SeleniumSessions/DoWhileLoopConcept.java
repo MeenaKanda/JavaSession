@@ -11,6 +11,7 @@ public class DoWhileLoopConcept {
 
 //		} while (p<=10);
 
+
 //		do {
 //			System.out.println(p); //1 2 3 4 5 6 7 8 9 10
 //			p++;
@@ -61,7 +62,7 @@ public class DoWhileLoopConcept {
 		
 		
 /*	do {
-			System.out.println("hello");  //infinite loop
+			System.out.println("hello");  //it generate infinite loop
 		} while (true);*/
 		
 		

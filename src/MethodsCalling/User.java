@@ -11,10 +11,12 @@ public class User {
 	//this keyword -> can not be used in static methods
 	//we cannot call more than one const..from another const..because const..call must be in the first statement.
 	
+	//super keyword=> is used to call parent class constructor
+	//this keyword => is used to call current class constructorS
 	
 	//how many use cases of this keyword we have seen:
-	  //1.constructor
-	  //2.methods
+	  //1.constructor to assign local var to call variable
+	  //2.methods - encapsulation - (getter and setter method)
 	  //3.builder pattern
 	  //4.const is calling another const.. with the help of this keyword and it should be first statement.
 	  //5.can be used in method to call another method in the same class.

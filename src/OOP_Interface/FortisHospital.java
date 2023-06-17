@@ -2,7 +2,7 @@ package OOP_Interface;
 
 public class FortisHospital extends Hospital implements USMedical, UKMedical, IndianMedical {
 	
-	int min_fee = 50; // there is no word-> variable overriding. //this is class vars.
+	int min_fee = 50; // there is no word-> variable overriding. //this is class vars
 	
 	// FH has responsibility to provide business logic of USMedical methods.
 	// FH have to implement all the methods for USMedical/override all methods from USM
@@ -92,7 +92,7 @@ public class FortisHospital extends Hospital implements USMedical, UKMedical, In
 	
 	
 	//override default interface method:
-	//we can override default method in child class . but have to remove default and put public instead.little weird.but it is overridden method.
+	//we can override default method in child class . but have to remove default and put public instead.little weird.but it is overridden method. it is violation of override.
 	@Override
 	public void getMedicalServices() {  
 		 System.out.println("US - getMedicalServices");

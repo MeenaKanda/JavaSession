@@ -13,7 +13,7 @@ package Encaptulation;
 
 public class Browser {
 
-	public void launchBrowser() { //encapsuation method to method
+	public void launchBrowser() { //encapsuation method to method //private methods are encapsulated in public method
 		 checkRAM();
 		 checkVersion();
 		 checkOS();

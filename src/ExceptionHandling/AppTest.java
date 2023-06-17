@@ -18,13 +18,14 @@ public class AppTest {
 //			finally {
 //				System.out.println("finally block");
 //			}
-//		}
+		}
 
 		System.out.println("bye AppTest");  //why not coming to this ?  //unreachable statement
 		//after throw keyword statement are not reachable
 	}
 
 }
+
  //here we don't need to write try catch. it will be taken care by Exception class internally
 //ApplicationException("DATANOTFOUNDEXCEPTION")-> because of this message ApplicationException class will be called and given message and
 //the same message given to super keyword and RuntimeExceptin will take care of it. no need to write try catch.

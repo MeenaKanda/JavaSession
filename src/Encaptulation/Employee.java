@@ -5,7 +5,8 @@ public class Employee {
 	//user can access public property directly. not private property.
 	//public property can internally calling/access all private property	
 	//user cannot access private property directly
-	//according to requirement decide which vars is private and public
+	//according to requirement decide which vars is private and public.
+	//user can access the private property via public member/layer which can only access all the private property.
 	
 	public String name;
 	public int age;
@@ -13,11 +14,11 @@ public class Employee {
 	
 	//public getter and setter method : always prefer for private members.not public
 	
-	public double getSalary() {
+	public double getSalary() {  // this method to fetch the value assigned for salary
 		return salary;
 	}
 	
-	public void setSalary(double salary) {
+	public void setSalary(double salary) {  // this one used assign the salary(which is private)
 		this.salary = salary;
 	}
 	

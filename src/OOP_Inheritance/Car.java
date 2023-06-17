@@ -4,10 +4,13 @@ public class Car extends Vehicle {
 	
 	//final:
 	//1. constant value
-	//2. to prevent method overridding
-	//3. to prevent inheritance
+	//2. to prevent method overridding EX: in web application, in page class-> display logo method make it final.so no one can override. so logo will be same in all page(reg,login,home)
+	//3. to prevent inheritance. if class with final keyword, it can not be extended by other class.
 	
 	//for static method-> overridding is not possible.but overload is possible
+	
+	//multilevel inheritance are allowed.
+	//multiple inheritance are not allowed. (BMW extends Car, Vehicle). can not have multiple class as a parent. it is called Diamond problem
 
 	public void start() {
 		System.out.println("Car---start");

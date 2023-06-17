@@ -23,11 +23,11 @@ public interface USMedical extends WHO, USHG{
 	
 	//In Java we can not create the Object of Interface.
 	//because there is no method body/business logic/declaration in method.(Abstract Method) 
-	//can not have const.. of the interface
+	//can not have const.. of the interface(Obj can not be created by interface)
 	
 	//Abstract Methods:
-	//final - NA -> final method in interface cannot have method body.no use of final method.
-	//static - NA ->static method cannot be overridden. so not allowed.
+	//final - NA -> final abstract method in interface cannot have method body.no use of final method.
+	//static - NA ->static method cannot be overridden. so not allowed.Abstract method should be overridden in child class.
 	//private - NA -> private method requires body. but abstract method have no body. not allowed
 	
 	
@@ -38,6 +38,10 @@ public interface USMedical extends WHO, USHG{
 	//but final implementation will always be done by class only.
 	
 	//multiple inheritance allowed interface to interface.one interface can have multiple parent interface by extends keyword
+	
+	//Interface can not have parent class. Interface can have multiple parent interface.
+	//class can have 1 parent class and also can have multiple interfaces.
+	//multiple inheritance allowed class to interface and interface to interface.
 	
 	
 	//jdk 1.7 : 100% abstraction (only have abstract methods)
@@ -55,7 +59,7 @@ public interface USMedical extends WHO, USHG{
 	
 	@Override
 	public void covidVaccination();
-	//fortis can override the WHO method.but no use of override. finally class only going to implement the method. not interface(US)
+	//fortis can override the WHO method.but no use of override in USMedical. finally class only going to implement the method. not interface(US)
 	
    
 	
@@ -65,12 +69,14 @@ public interface USMedical extends WHO, USHG{
     	System.out.println("US- taxCalculation");
     }
 	
+	// In interface we can not have final method.
+	//in interface we can not have private method
 //	public final static void taxCalculation() {  //static method with final not allowed.
 //    	System.out.println("US- taxCalculation");
 //    }
 
      // 2. default methods allowed: not static:
-	 default void getMedicalServices() {  //without defalut it won't work.
+	 default void getMedicalServices() {  //without defalut it won't work. //interface can take decision with default method.
 		 System.out.println("US - getMedicalServices");
 	 }
 	
@@ -95,7 +101,7 @@ public interface USMedical extends WHO, USHG{
 
 
   //3. can we have constructor inside the interface?
-  //No. we cannot create object of interface. but whenever we create an object the const will be called.
+  //No. we cannot create object of interface. but whenever we create an object the const will be called. obj can not be created by interface.
 
   //4. which will participate in OOP? static or non static?
   //in OOP always not static method will participate. inside memory the photo copy of non static method will be given.

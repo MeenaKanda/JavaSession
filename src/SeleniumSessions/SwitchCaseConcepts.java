@@ -10,7 +10,7 @@ public class SwitchCaseConcepts {
 		switch (browser)  {
 		case "chrome":
 			System.out.println("chrome is launched");
-		    break;   // this break is for break out of entire switch case
+		    break;   // this break is for break out of entire switch case //if no break it will execute next line also
 		case "firefox":
 			System.out.println("firefox is launched");
 		    break;
@@ -50,8 +50,8 @@ public class SwitchCaseConcepts {
 			break;
 		}
 		
-		//we cannot use switchcase statement for floating value and long
-		//switch case statement only compatible with integer,byte,short,  char, and string
+		//we cannot use switchcase statement for floating value and long, boolean, float, double
+		//switch case statement only compatible with integer,byte,short,  char, and string, ennum
 //		float weight = 75.5f;
 //		switch (weight) {
 //		case value:
@@ -102,13 +102,13 @@ public class SwitchCaseConcepts {
 	}
 	
 	
-  //real time of switch case:
+  //real time use case of switch case:
 	//1. cross browser logic
     //2. ecomm - multiple - language
 	//3. multi environment: DEV, QA, STAGE, UAT, PROD
 	//4. API methods: GET, POST, PUT, DELETE
 	//5. DropDown: Single, Multiple, All
-	//6. Payment Methods: CC, UPI, PAYPAL, Xoom, Wu, Bank
+	//6. Payment Methods: CC, UPI, PAYPAL, zoom, Wu, Bank
 	
 	
 	

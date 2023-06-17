@@ -7,13 +7,16 @@ public class MathOpeations {
 		// any of them or both float result -> float
 		System.out.println(10/2); //5
 		System.out.println(9/2);  //4.5-> 4
+		System.out.println(25/4.0); //6.25
+		System.out.println(25.0/4); //6.25
+		System.out.println(25.0/4.0); //6.25
 		
 		System.out.println(9.0/2); //4.5
 		System.out.println(9/2.0); //4.5
 		System.out.println(9.0/2.0); //4.5
 		
 		//System.out.println(9/0); //ArithmeticException(AE)
-		//AE applicable for only integer. 0 is also part of integer.
+		//AE applicable for only integer. 0 is also pure integer.
 		System.out.println(0/9); //0
 		System.out.println(0/1); //0
 		

@@ -25,7 +25,7 @@ public class Customer {
 		}
 		else {
 			System.out.println("emp name is not found...");
-			return null;
+			return null;  //array is non-pri data type so return is null
 		}
 		
 		

@@ -8,7 +8,7 @@ public class IncrementAndDecrementalOperators {
 		// execution happen left to right
 		
 		int a = 1;
-		int b = a++;
+		int b = a++;  //first value of a will be given to b(b=1). then increase the value of a by 1(a=2)
 		System.out.println(a); //2
 		System.out.println(b); //1
 		
@@ -24,7 +24,7 @@ public class IncrementAndDecrementalOperators {
 		
 		//2. pre increment: ++
 		int t = 1;
-		int u = ++t;
+		int u = ++t; //first increase the value of t by 1(t=2) then give the value of t to u
 		System.out.println(t); //2
 		System.out.println(u); //2
 		
@@ -125,6 +125,16 @@ public class IncrementAndDecrementalOperators {
 		
 		 float b1 = 97.0f;
 		 System.out.println((char)++b1);
+		 
+//		 String s1 = "Hello";
+//		 System.out.println(++s1); //cannot convert from String to int  //we can not use ++ operator for String
+		 
+//		 System.out.println(++true); //Invalid argument to operation ++/-- //we can not use ++ operator for boolean
+		 
+		 System.out.println(2 * 10);  //20
+		 System.out.println(-2 * 10); //-20
+		 System.out.println(-2 * -10); //20
+		 
 		
 		
 		

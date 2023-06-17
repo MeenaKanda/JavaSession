@@ -1,10 +1,10 @@
-package Encaptulation;
+ package Encaptulation;
 
 public class Application {
 	
 	String name;
 	 //main method and static method and vari available in CMA
-	//m1, m2, m3 methods all are in part of same object.
+	//m1, m2, m3 methods all are in part of same class.
 	//so all three methods can call/access each other.
 	//t1, t2, t3 static methods can call each other(all static var and method in CMA)
 	
@@ -40,7 +40,7 @@ public class Application {
 	
 	public static void t1() {
 		 //calling non static method from static method
-		Application a1 = new Application();  
+		Application a1 = new Application();  // we can create the object in any method(not only in main method)  
 		a1.m1();
 		
 		System.out.println("t1 method");
@@ -59,7 +59,8 @@ public class Application {
 	public static void main(String[] args) {
 		
 		Application app = new Application();
-		app.m1();
+		app.m1();                          //main method take reference app and call m1() 
+		//main method is available CMA so main method need  obj to call m1() by using ref app
 		System.out.println(app.name); 
 
 		Application.t1();

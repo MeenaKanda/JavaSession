@@ -3,10 +3,12 @@ package OOP_AbstractClasses;
 public class LoginPage extends Page {
 
 	public LoginPage () {
+        // this keyword call 
 		System.out.println("LP -- const...");
 	}
 	
 	public LoginPage (int i) {
+//		super(30);  //this super keyword is used to call parent class default cons
 		System.out.println("LP -- const..." + i);
 	}
 	

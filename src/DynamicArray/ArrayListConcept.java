@@ -7,6 +7,8 @@ public class ArrayListConcept {
 	//size()-> get size of an current array
 	//add() -> uset to add values
 	//get(index)-> get value at respective(specific) index
+	//remove(index) -> remove on the basis of index
+	//remove(value) -> reomve on the basis of value
 	
 	//fetch all values : 
 	//1. directly using ref vars
@@ -63,6 +65,9 @@ public class ArrayListConcept {
 		
 		System.out.println(ar.size());  //9 size decreased after remove
 		System.out.println(ar.get(7));  //true
+		
+		ar.remove(23.44);  //remove on the basis of value
+	
 		
 		//1.print the arraylist
 		System.out.println(ar);  //[100, 200, 300, 400, 500, testing, 23.44, true, 1000]

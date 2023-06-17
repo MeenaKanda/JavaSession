@@ -2,14 +2,19 @@ package SeleniumSessions;
 
 public class MethodsInJava {
 	
-	//d
-	//function:
-	//
+	//Java has 2 class members: we have to create the object to access the data members
+	// 1. class variables
+	// 2. class methods.
+	
+	
+	//function: is a piece of program which is written within some body. we can execute the program any time.
+	//functions are independent.
+	//cannot create a function inside a function.
 	//2+2 = 4
 	//3+2 = 5
 	
 	// 3 types of function/method:
-	//1/ no input and no return:
+	//1. no input and no return:
 	//void: no return: function can not return anything
 	//return type: void
 	public void test() {
@@ -102,7 +107,7 @@ public class MethodsInJava {
 		obj.test();  // test method not return anything. so no need to store 
 		
 		int m1 = obj.getBillAmount(); //return type is int.
-		// this m1 can be used for some other purpose later on(discount,coupon,offer)
+		// this m1 can be used for some other purpose later on(discount,coupon,offer) - adv of return type
 		System.out.println(m1);   
 		System.out.println(m1-10);  //apply coupon
 		

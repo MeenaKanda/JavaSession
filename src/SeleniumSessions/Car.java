@@ -4,8 +4,8 @@ public class Car {
 	
 	//whenever you have common property value(wheels = 4) (4 is value of variable) , the property should be define as static.
 	//Java will create only one common copy of static variable
-	//static variables and methods stored in Common Memory Allocation (CMA)
-	//static cannot be used for local variables.
+	//static variables and methods stored in Common Memory Allocation (CMA). not inside the object
+	//static cannot be used for local variables. only used for class variables
 	//static can only be used for class variables which can have common property value.
 	//final keyword -> can be used for class and local variables.
 	//final -> we can not change the value.
@@ -76,6 +76,7 @@ public class Car {
 		c1.speedTest();  
 		//you can call static method by using object, but it give you warning
 		//The static method speedTest() from the type Car should be accessed in a static way.
+		//because static method sppedTest() available in CMA. not inside object
 		System.out.println(c1.wheels);
 	
 		//Car.wheels = 5; //we can not assign/change the value of static variable when we use final keyword.

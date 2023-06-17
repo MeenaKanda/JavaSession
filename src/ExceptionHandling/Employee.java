@@ -76,3 +76,8 @@ public class Employee {
 	}
 
 }
+
+//can we handle error and exception together? 
+//ans: yes using catch(Trowable e). Throwable is a parent of both error and exception.
+
+//try block can not be alone. it will come with catch

@@ -42,13 +42,13 @@ public class Employee {
 	    // 2.writing ArrayList:
 	    //asList() -> helps write all value in  the same line.
 	  //asList() -> is a static method.
-	   List<String> browserList = Arrays.asList("chrome", "firefox", "IE", "Safari", "Edge");  //immutable ArrayList
+	   List<String> browserList = Arrays.asList("chrome", "firefox", "IE", "Safari", "Edge");  //immutable ArrayList //asList-> return ArrayList
 	   
 	   System.out.println(browserList.size());  //5
 	   System.out.println(browserList);   //[chrome, firefox, IE, Safari, Edge]
 	   
 	  
-	   List<Integer> numList = Arrays.asList(100, 200, 300, 400, 500);
+	   List<Integer> numList = Arrays.asList(100, 200, 300, 400, 500);  //
 	   System.out.println(numList); //[100, 200, 300, 400, 500]
 	   
 //	   numList.add(600);
@@ -71,13 +71,15 @@ public class Employee {
 }
 
 //1.why are you getting UnsupportedOperationException while using Arrays.asList() ?
+// because asList() method is immutable.immutable means=> once it is declared we can not change or add anything using add() method. .
 //It is immutable arrayList. once it declare we can not change it using add().
 //if you really want to add, add it at first line itself. dont use add(). but it still dyanmic array.
 //when we use this kind dynamic array? when we have no of elements are fixed, predefined value.
 
 // 2.when we have to add more and more value later use List<String> namesList = new ArrayList<String>();
 
-	    
+//List<String> namesList = new ArrayList<String>(); //(Top casting)  //mutable ArrayList
+//List<String> browserList = Arrays.asList("chrome", "firefox", "IE", "Safari", "Edge");  //immutable ArrayList
 	
 	
 	

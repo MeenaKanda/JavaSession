@@ -4,8 +4,11 @@ import java.util.HashMap;
 
 public class HashMapConcept {
 	
+	//collection are dynamic
+	
 	//ArrayList have only values
 	
+	//HashMap => is a class
 	//HashMap -> dynamic storage
     //HashMap<k,v> :
 	//it is used for storing key-value pairs using a hashtable. 

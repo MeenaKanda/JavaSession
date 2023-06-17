@@ -8,10 +8,11 @@ public class Testemp {
 		e1.name = "Tom";  //public
 		e1.age = 25;    //public
 	//	e1.salary = 90;  //private vars can not access from outside the class
+		//so through setter method(which is public) we assign the value to private member.
 		
 		e1.setSalary(12.33);
 		System.out.println(e1.getSalary() + " " + e1.name+ " " + e1.age);  //12.33 Tom 25
-
+      
 		
 //		Company c1 = new Company();
 //		c1.setName("IBM");

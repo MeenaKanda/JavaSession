@@ -7,7 +7,7 @@ public class Employee {
 	//In c language we have call by reference in the form of pointers.but In java no concepts of pointers
 	//call by reference -> in java we have Object and Object references
 	//call by reference -> call a method by passing a class reference is called call by ref
-	//in java one object can have 2 references
+	//in java one object can have 2 or more references
 	//in call by ref we dont supply the value , we supply/passing the ref of the object.
 	//call by reference ex in selenium : in page object module, page chaining module that is called zigzag pattern
 	//In call by reference-> we can not call constructor by call by ref. constructor will be called when create the object.
@@ -44,7 +44,7 @@ public class Employee {
 		e1.name = "Gaurav";
 		e1.age = 30;
 		System.out.println(e1.name + "  " + e1.age);  //Gaurav 30
-		e1.getInfo(e1); //call by reference  //e1=emp //p1 and emp pointing to same object now
+		e1.getInfo(e1); //call by reference  //e1=emp //e1 and emp pointing to same object now
 		
 		System.out.println(e1.name + "  " + e1.age); //Amrita 25 //e1 get the latest value
 		

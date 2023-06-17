@@ -33,3 +33,10 @@ public class MainMethodOverloading {
 		}
 	
 }
+
+//why main method is static in nature?
+ //main method is available in CMA. so JVM no need to create an object to call main method
+//why main method is void?
+// It does not return anything.
+//why main method is public?
+//Public so JVM can easily access main method

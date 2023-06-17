@@ -21,6 +21,7 @@ public class Customer {
 	//Collections.reverse() -> method used to reverse 
 	//Colllections.sort() -> sort the value(a-z order)
 	//Collections.swap() -> swap two values
+	//Collections.replaceAll(namelist, "", "") 
 	
 
 	public static void main(String[] args) {

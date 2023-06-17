@@ -130,9 +130,12 @@ public class ForLoopConcepts {
 		System.out.println("---------------------------");
 		
 			
-		//while loop use cases:		
-		// 
-		
+		//for-loop use cases:		
+				// 1. no of iteratin are fixed.
+				// 2.month dropdown: jan to dec
+				// 3.ecomm: category iteration
+				// 4.country
+				
 	}
 	
 	

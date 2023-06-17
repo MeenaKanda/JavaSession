@@ -4,7 +4,7 @@ public class PageTest {
 
 	public static void main(String[] args) {
 	
-		LoginPage lp  = new LoginPage(10);
+		LoginPage lp  = new LoginPage();
 		//eventhough we pass the value ,first parent class it will go and jvm confused in parent class which const.. to call(default or parameterized)
 		//default or parameterized? it will call default const.. in parent class (not parameterized const..) then go to child class
 		//then it will call parameterized const.. in child class(not default in child class)

@@ -63,9 +63,11 @@ public class TimeComplexityConcept {
 				}
 			}
 		}
-		//(1+n+n)(1+n+n+)(1+n+n+n) ==> O(n^3)
+		//(1+n+n)(1+n+n)(1+n+n+n) ==> O(n^3)
 		
 	}
+	
+	//more iteration you add more and more time it take
 	
 
 }

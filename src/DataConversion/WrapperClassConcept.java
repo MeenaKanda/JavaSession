@@ -26,7 +26,7 @@ public class WrapperClassConcept {
 		System.out.println(j+20);   //  //120
 		
 		
-//		int j = Integer.parseInt(y);  //NumberFormatException
+//		int j = Integer.parseInt(y);  //NumberFormatException throw from this line
 //		System.out.println(j+20);     //NumberFormatException
 		//we can not convert alphaNumeric String(100A,100test,100USD) into integer.it give NUmberFormatException in this situation(100USD)
 		//it should be pure integer string to convert into integer

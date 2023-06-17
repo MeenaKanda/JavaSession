@@ -39,6 +39,8 @@ public class ArrayListGenerics {
 		empDataList.add(12.33);
 		empDataList.add('m');
 		
+		empDataList.remove(12.33);  //remove on the basis of value
+		
 		for(int i=0; i<empDataList.size(); i++) {
 			System.out.println(empDataList.get(i));
 		}

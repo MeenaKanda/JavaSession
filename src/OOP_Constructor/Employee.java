@@ -12,7 +12,7 @@ public class Employee {
 	//const.. don't have business logic .while methods hold business logic
 	
 	//default const...0 param
-	public Employee() {
+	public  Employee() {
 		System.out.println("default const...");
 	}
 	

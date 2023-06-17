@@ -5,6 +5,7 @@ package ExceptionHandling;
 //Throws is not handling the exception just passing the exception .
 //actual exception are handled by try catch block only.
 //JVM will not handle the exceptions,if the exception is not addressed/handled.
+//throws keyword written after method name
 
 //m2() is a caller method of m3()
 //m1() is a caller method of m2()

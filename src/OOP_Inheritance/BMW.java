@@ -5,7 +5,7 @@ public class BMW extends Car {
 	//every car is not BME
 	//method overriding always happen b/w parents and child
 	
-	//method Overriding:
+	//method Overriding: polymorphism - runtime/dynamic polymorphism
 	//when we have a method in parent class and the same method in child class
 	//with the same method name
 	//with the same number of parameters

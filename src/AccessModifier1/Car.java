@@ -5,6 +5,7 @@ public class Car {
 
 	public String name;
 	private int price;
+//	private static int price;   //allowed
 	protected String color;
 	String seller; // if not mention anything means-> defalut //should not write default
 
@@ -25,6 +26,9 @@ public class Car {
 	}
 
 	public static void main(String[] args) {
+		
+	//	public int i = 10;  //for loacal variable public private default not allowed
+		final int i = 20;   //final allowed for local variable.
 
 		Car c = new Car();
 		c.price = 100;
@@ -46,3 +50,5 @@ public class Car {
 // can we use public , private ,default for local variable? ans: no
 //local variabale -> final access modifier only allowed for local variable(can be constant)
 //local variable -> cannot be static
+
+//global variable -> can be static

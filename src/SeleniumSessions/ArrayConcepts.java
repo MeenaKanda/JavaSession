@@ -25,8 +25,14 @@ public class ArrayConcepts {
 		
 		int i[] = new int[4];  // give me a new memory allocation of int type. and how many value you want(4)
       //  int []i = new int[4];
+		//inside memory 4 segments/memory allocation are created.int=4bytes. so total size of array=4*4=16
+		//lowest index of array = 0 
+		//hignest index of array =  n-1
+		//length of an array = n
+		//length of an array = hig inx + 1
+		//in array memory stored in a continuous memory allocation. not random memory allocation.it is better optimizationS
 		
-		System.out.println(i.length); //4
+		System.out.println(i.length); //4  //length is already pre difined in javaS
 		int len = i.length;
 		int hi = len - 1;
 		int li = 0;
@@ -64,11 +70,11 @@ public class ArrayConcepts {
 		System.out.println("**********************************");
 		
 		//to print all the values from array without loop:
-		System.out.println(Arrays.toString(i));  //[10, 20, 30, 40]
+		System.out.println(Arrays.toString(i));  //[10, 20, 30, 40] //not converting into string.just give string representation of ArrayS
 		
 		System.out.println("--------------");
 		//for each:
-		for(int e : i) {   // scope of e is within for loop
+		for(int e : i) {   // scope of e is within for loop //e go to i and fetch the value one by oneS
 			System.out.println(e);
 			    if(e==20) {
 			    	System.out.println("bye");
@@ -117,7 +123,7 @@ public class ArrayConcepts {
 		//String array:
 		String lang[] = new String[4];
 		lang[0] = "Java";
-		lang[1] = "Python";   // if you // this line give you NPE
+		lang[1] = "Python";   // default value of String is null // this line give you NPE
 		lang[2] = "JavaScript";
 		lang[3] = "DotNet";
 		

@@ -1,4 +1,4 @@
-package StringManipuation1;
+ package StringManipuation1;
 
 public class StringConcept {
 	//String->most commonly used values in ecommerce everywhere
@@ -43,9 +43,12 @@ public class StringConcept {
 	    String s5 = "Testing"; //1 //SCP //i obj created in SCP
 	    s5 = null;
 //	    System.out.println(s5.length()); //NullPointerException
+	    //Testing is pointed by no one.
 	    
 	    String s6 = "Naveen";
 	    s6 = "Aksha";   //s6 break connection from Naveen and s6 start ref Aksha
+	    //Naveen pointed by no one.
+	    //so Testing and Naveen is ready for Garbage collector. because SCP is part of heap memory.
 	    
 	    
 	    

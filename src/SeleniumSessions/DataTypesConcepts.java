@@ -7,7 +7,7 @@ public class DataTypesConcepts {
 		//data types in java:
 		
 		//two types:
-		//1. primitive data types: no need to create use object.
+		//1. primitive data types: no need to create object.
 		//this types of variable dont need any objects.
 		//primitive data types occupy some memory which is pre-defined.
 		    //Integral:
@@ -104,7 +104,8 @@ public class DataTypesConcepts {
 		System.out.println(c1); //a
 		System.out.println(c1+c11); // 97+98 = 195
 		System.out.println(c1-c11); //97-98 = -1
-		
+		//
+		//every programming language are pre-defined.(ASCII-value)
 		//ASCII value -- table(pre-defined)
 		//a-z : 97 to 122
 		//A-Z : 65 to 90
@@ -128,15 +129,17 @@ public class DataTypesConcepts {
 		
 		System.out.println(1+2);//3
 		System.out.println('a'+'b'); //195
-		System.out.println(100); //100 //not good practice //100 is int
+		System.out.println(100); //100 //not good practice //100 is int //by default it syso takes int inside the ()
 		System.out.println(1); //1 is an integer. println always takes an integer only.not byte
 		//we cannot print more than int value(-128 to 127).
+//		System.out.println(1999999999999);
 		
 		//boolean
 		//size: ~ 1 bit
 		boolean fg = true;
 		boolean fg1 = false;
-		 
+		
+		
 		
 		
 		
@@ -144,3 +147,8 @@ public class DataTypesConcepts {
 	}
 
 }
+
+//JDK takes space from the RAM not from the memory(hard disk). form 16GB memory JDK takes 512MB
+//in java we use bytes and bits units to calculate memory
+//if we create variable unnecessarily it takes up memory. so it slow down your application or app will be crashed.
+//every variable stored im memory location(1001,1004,1223)

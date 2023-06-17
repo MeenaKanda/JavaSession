@@ -5,7 +5,8 @@ public class TestCar {
 	public static void main(String[] args) {
 		
 		BMW b = new BMW();
-		b.start();   //BMW child  //overridden method //preference always given to overridden
+		b.start();   //BMW child  //overridden method //preference always given to overridden // not able to access parent class method.
+		                          //if you want to access parent class method also , here super keyword come into picture.
 		b.stop();    //Car par //inherited method
 		b.refuel();  //Car par //inherited
 		b.autoParking(); //BMW //individual method
@@ -46,7 +47,7 @@ public class TestCar {
 		
 		//child class object can be referred by parent class ref variable
 		//Top/Up Casting
-		Car c1 = new BMW();   //every BMW is a Car
+		Car c1 = new BMW();   //every BMW is a Car  
 		//object is BMW that is referred by Car class ref vars c1
 		//type of c1 is Car                    
 		
@@ -56,7 +57,6 @@ public class TestCar {
 		c1.petrolEngine();
 //		c1.autoParking();   //not allowed because autoparking is individual methods(nothing related to Car). so it cannot be accessed by Car class ref vars.
 		 //star(overridden), stop and refuel(inherited) method are from parents class(related to car). so parent class ref able to access it.
-	     
 		//ref type check will be failed in individual method.
 	    c1.engine();
 	    c1.payment("meena1234");
