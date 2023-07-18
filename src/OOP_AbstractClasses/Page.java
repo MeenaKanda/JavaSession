@@ -51,7 +51,7 @@ public abstract class Page implements Web{
 	public abstract void url();
 	
 	public final void displalyLogo() {
-		System.out.println("Page -- logo");
+		System.out.println("Page -- Logo");
 	}
 	
 	public void pageLoadingTime() {
