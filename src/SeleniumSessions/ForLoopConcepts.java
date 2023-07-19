@@ -1,9 +1,6 @@
 package SeleniumSessions;
 
 public class ForLoopConcepts {
-	
-	//forloop compatible with-->byte, short, int, long, float, double, char using conditional operator
-	// forloop compatible with---> String by using .equls(); method
 
 	public static void main(String[] args) {
 
@@ -129,12 +126,7 @@ public class ForLoopConcepts {
 		
 		System.out.println("---------------------------");
 		
-			
-		//for-loop use cases:		
-				// 1. no of iteratin are fixed.
-				// 2.month dropdown: jan to dec
-				// 3.ecomm: category iteration
-				// 4.country
+		
 				
 	}
 	

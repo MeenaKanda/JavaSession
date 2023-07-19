@@ -25,18 +25,8 @@ public class Employee {
 	    namesList.add("Ravi");
 	    namesList.add("Naveen");
 	    
-	    //directly print value: it can just print values. no logic can apply here.if you want to print all elements together use this.
 	    System.out.println(namesList);  //[Tom, Peter, Rashmi, Ravi, Naveen]
 	    System.out.println(namesList.size());  //5
-	    
-	    //for each loop: advantage of for loop: we can add some extra logic or other action(if , compare)
-	    //eg. dropdown:country, phone list
-//	    for(String e : namesList) {
-//	    	syso
-//	    }
-	    
-	
-	    
 	    
 	    
 	    // 2.writing ArrayList:

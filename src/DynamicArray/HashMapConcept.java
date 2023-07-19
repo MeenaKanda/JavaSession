@@ -4,7 +4,6 @@ import java.util.HashMap;
 
 public class HashMapConcept {
 	
-	//collection are dynamic
 	
 	//ArrayList have only values
 	
@@ -41,10 +40,8 @@ public class HashMapConcept {
 		empMap.put("Karem", "CEO");
 		empMap.put("Karem", "CEO"); // karem key take latest value CEO
 		empMap.put("Sheela", null);
-		empMap.put(null, "CTO");   //if you don't know key use null
-		empMap.put(null, null);  //null key take latest value null // practically we don't use null key and value
-		
-		
+		empMap.put(null, "CTO");   
+		empMap.put(null, null);  
 		
 		
 		System.out.println(empMap.get("Rashmi"));  //SDET2
@@ -74,34 +71,6 @@ public class HashMapConcept {
 	}
 
 }
-
-//How HashMap works internally?
-//put(key, value){
-// h =  hashcode(key) chrome-17089
-// index = mod(n) -> 3
-//}
-
-//In put method, hascode is calculated for key value by java internally, then it will calculate the index in which position we put the pair.
-
-//java can calculate same hashcode for multiple keys ,so get same index also, so the 2nd value go to the same segment(index), this is called collision.
-
-//get(key){
-//hashcode(key) 
-//index
-//}
-
-//put method also find hascode for key and find index , then go find and get respective value.
-//before JDK 1.8 -> hashmap was slow to go fetch the value because of collision happen more in single index
-//Time complexity -> O(n)
-
-//after JDK 1.8 -> java create threshold concepts , maximum 8 nodes it form, after 8th nodes convert into Binary Tree (BT)
-//Time complexity -> O(log n)  -> way faster than O(n)
-
-
-
-//Qs: which data structure HashMap represents?
-// the hashmap is an implementation of hash table data structure, which is idle for mapping one value to other lide id to name as you can
-//search for value in O(1) time if you have key. 
 
 
 

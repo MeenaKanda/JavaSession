@@ -3,8 +3,7 @@ package ExceptionHandling;
 
 public class DriverFactory {
 	
-	//throw -> using throw keyword we can throw our own custom exception(not build in exception)
-    // throw keyword used to delebrately throw your own exception.
+	
 	public static void main(String[] args) {
 		
 		

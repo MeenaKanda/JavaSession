@@ -1,4 +1,4 @@
-package DynamicArrayConcepts;
+ewepackage DynamicArrayConcepts;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,11 +7,6 @@ import java.util.List;
 public class Employee {
 
 	
-		
-		
-		//List -> is an interface (parent of ArrayList class)
-		//Arrays -> class available in java
-
 		public static void main(String[] args) {
 			
 		//	List<String> namesList = new List<String>();  //it not possible, we can not create obj with I(List)
@@ -30,15 +25,6 @@ public class Employee {
 		    //directly print value: it can just print values. no logic can apply here.if you want to print all elements together use this.
 		    System.out.println(namesList);  //[Tom, Peter, Rashmi, Ravi, Naveen]
 		    System.out.println(namesList.size());  //5
-		    
-		    //for each loop: advantage of for loop: we can add some extra logic or other action(if , compare)
-		    //eg. dropdown:country, phone list
-//		    for(String e : namesList) {
-//		    	syso
-//		    }
-		    
-		
-		    
 		    
 		    
 		    // 2.writing ArrayList:
@@ -72,9 +58,3 @@ public class Employee {
 
 }
 
-//why are you getting UnsupportedOperationException while using Arrays.asList() ?
-//It is immutable arrayList. once it declare we can not change it using add().
-//if you really want to add add it at first line itself. dont use add(). but it still dyanmic array.
-//when we use this kind dynamic array? when we have no of elements are fixed, predefined value.
-
-//when we have to add more and more value later use List<String> namesList = new ArrayList<String>();

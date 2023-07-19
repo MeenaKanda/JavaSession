@@ -111,7 +111,3 @@ public class Application {
 	}
 
 }
-
-//compiler already aware which method to call at the compile time(decision already take at compile time). java execute entire class and execute .class file. .class file will be given to jvm in your machine and jvm will 
-//run the program.no need to make a decision at run time.
-//In python everything happen at run time. in Java 80% will be done by the compiler time. 20% only run time. so java is faster than python.

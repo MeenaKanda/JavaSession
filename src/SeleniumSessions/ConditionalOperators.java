@@ -62,9 +62,7 @@ public class ConditionalOperators {
 		System.out.println("-----------------------------");
 		
 	// if if if if
-		//execute all the condition one by one .it consume time if we write 100 conditions
-		//condition can be satisfy first or in the middle sill all the line will go and check
-		//.equal is a method and it give you boolean.
+		
 /*		String browser = "chrome";
 		if(browser.equals("chrome")) {
 			System.out.println("chrome is launched");
@@ -85,9 +83,7 @@ public class ConditionalOperators {
 		System.out.println("-----------------------------");
 		
 		//if-elseif
-		// once the condition is satisfied it wiil not check remaining conditions.slightly better than previous if if if . but still it is not optimized
-		//if condition is satisfied no need to go to else part.
-		//now we use switchcase concepts
+		
 		String browser = "chrome";
 		if(browser.equals("chrome")) {
 			System.out.println("chrome is launched");

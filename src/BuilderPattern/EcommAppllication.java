@@ -2,12 +2,7 @@ package BuilderPattern;
 
 public class EcommAppllication {
 	
-	//Method Chaining:  In java, Method Chaining is used to invoke multiple methods on the same object 
-	//which occurs as a single statement. Method-chaining is implemented by a series of methods that 
-	//return the this reference for a class instance. 
 	
-	//whenever we use this keyword the return type is class name.
-    // without this keyword we cannot achieve builder pattern
 	public EcommAppllication login() {
 		System.out.println("login to app");
 		return this;  // this keyword returning current class object(same object)

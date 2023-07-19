@@ -32,13 +32,6 @@ public class WrapperClassConcept {
 		//it should be pure integer string to convert into integer
 		//first use split method(or replace method) and convert(100USD) into integer(100).
 		
-		//ex: in selenium: in amazon.com  
-		//when you read from webpage there is price 100 written ,(when you read from the webpage it is always in the form of string only)
-		//the 100 will be given in the form of string.
-		//if I want to do calculation with 100 possible? no it is in the form of string. we really need to convert string into int
-		//then we can do any arithmetic operation after conversion.
-		
-		
 		System.out.println("----------------");
 		
 		//String to double:
@@ -63,12 +56,7 @@ public class WrapperClassConcept {
 		String k1 =String.valueOf(k); //convert int to String
 		System.out.println(k1+20);  //10020
 		
-		//ex: in Selenium: there is a sendkeys method
-		// i really want to enter price on webpage. there is a form which have price.have to enter a price.price is 100.
-		//when we supply(passing) data to browser , we cannot supply integer(k=100), because selenium can not take integer value.only accept string value
-		//in text field we need to supply text not integer,inn this case we convert integer to string.
-	
-	
+		
 	//  boolean to String:
 		boolean flag = true;
 		String f1 =String.valueOf(flag);  //true

@@ -4,9 +4,7 @@ public class NaveenAutomationAppTest {
 	
 //	static WebDriver driver;  //declare in class level
 	
-	//instructions are provided by webDriver I.Every browser is implementing it.
-    //adv-> every script remain same for all browser. only thing is we have to initialize the browser class
-
+	
 	public static void main(String[] args) {
 		
 		//topcasting with grandparent I not possible.because it have only one method. WebDriver have all methods.
@@ -44,7 +42,7 @@ public class NaveenAutomationAppTest {
 		
 			
 		//if you didn't pass right browser you will get NullPointerException.
-		//because driver pointing to null.if you perform any action on null you ger Nullpointerexception.
+		//because driver pointing to null.if you perform any action on null you get Nullpointerexception.
 			
 			
 		driver.get("https://www.naveenautomationlabs.com");

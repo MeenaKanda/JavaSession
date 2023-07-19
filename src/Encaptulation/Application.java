@@ -3,14 +3,7 @@
 public class Application {
 	
 	String name;
-	 //main method and static method and vari available in CMA
-	//m1, m2, m3 methods all are in part of same class.
-	//so all three methods can call/access each other.
-	//t1, t2, t3 static methods can call each other(all static var and method in CMA)
-	
-	//don't create object in global level.
-	//Application obj = new Application();
-	
+	 
 	public void m1() {  // m1 calling m2
 		
 		// call static method from non static method:
@@ -18,9 +11,6 @@ public class Application {
 		//t1(); // stack overflow happen . infinity time
 		// we can create the object in any method(not only in main method)
 		t2();
-		
-		
-		
 		
 		System.out.println("m1 method");
 		name = "Naveen";  //global variable. not local variable

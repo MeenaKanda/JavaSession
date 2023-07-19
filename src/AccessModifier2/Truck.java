@@ -3,7 +3,7 @@ package AccessModifier2;
 import AccessModifier1.Car;
 
 public class Truck {
-       //Truck -> is not a child of Car. so we need to create obj of Car to access Car class property from different package 
+     
 	
 	public static void main(String[] args) {
 		

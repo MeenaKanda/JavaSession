@@ -6,7 +6,7 @@ public class StringConcatenation {
 		//String is not a keyword.
 		// String -> non-primitive data types
 		//String-> built in class available in java(JDK)
-		//String concatinate with other data types
+		//String concatenate with other data types
 		String x = "hello";
 		String y = "world";
 		
@@ -19,10 +19,7 @@ public class StringConcatenation {
 		System.out.println(x+y);
 		System.out.println(a+b);
 		
-		//when we add + string with any other data it will concatinate.
-		//execution happen from left to right
-		//we can not do * between string 
-		System.out.println(x+a); //concat //
+		System.out.println(x+a); //concat 
 		System.out.println(a+b+x+y); //300helloworld
 		System.out.println(x+y+a+b); //helloworl100200
 		

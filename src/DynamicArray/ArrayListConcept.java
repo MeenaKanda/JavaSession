@@ -30,7 +30,7 @@ public class ArrayListConcept {
 		//VC -> don't take any bytes and bits
 		//arrayList-> accept duplicate value, null value
 		//no limit size for arrayList.
-		// If generics are not used, ArrayList can hold any type of objects.
+		// If generic are not used, ArrayList can hold any type of objects.
 		
 		
 	    ArrayList ar = new ArrayList();   //raw type array list

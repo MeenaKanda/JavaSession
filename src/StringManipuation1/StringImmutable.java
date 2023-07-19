@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class StringImmutable {
 
-	// immutable -> can not change the value of String
+	
 	public static void main(String[] args) {
 
 		int i = 10;
@@ -39,9 +39,6 @@ public class StringImmutable {
 	String t2 = "Naveen"; // unref Naveen in SCP ref by t2 now.
 	System.out.println(t2); //Naveen
 	
-	//String(Naveen) are immutable. whenever you create anything with String which are immutable always.
-	//the moment you update anything(manipulate) it create new entry..so it full of String values so SCP will be suffocated. is it better approach?
-	//that's why java approach String buffer and String Builder. they are exactly like String but they are mutable.
 	
 	String r = "      hello selenium      ";
 	r = r.trim();
@@ -64,9 +61,6 @@ public class StringImmutable {
 	System.out.println(test.replaceAll(" ", "m"));  
 	System.out.println(test.replace(" ", "n"));
 	
-	//replaceAll-> it replace all space together at same time by m
-	//replace-> it replace the space one by one and keep adding one by one n
-	//which one is faster in performance ? ans: replaceAll is faster
 	
 	}
 

@@ -44,14 +44,12 @@ public class TestHospital {
 	//	USMedical.min_fee = 20; //final var cannot be changed.
 		
 		USMedical.taxCalculation();
-	//	FortisHospital.taxCalculation(); //if you want use taxcalulation it should have method hiding.not inheriting
+	//	FortisHospital.taxCalculation();
 		
-	//    fh.getMedicalServices();  //it can inherit before overridden
+	//    fh.getMedicalServices();  
 	    
 	    //overridden from US
-	    fh.getMedicalServices(); 
-	    
-	    
+	    fh.getMedicalServices();  
 	    
 		
 		//NA - not applicalble
@@ -60,9 +58,7 @@ public class TestHospital {
 		
 		//top casting:
 		//child class object can be referred by parent interface ref variable
-		//ref of interface(us) can be created. but can not create the Object of interface.
-		//with help of us -> can access only all the overridden method from only US and common method.
-		//us -> can not access methods from UK, Indian, individual methods(ref type check failed)
+		
 		USMedical us = new FortisHospital();
 		
 		us.cardioServices();
@@ -71,16 +67,13 @@ public class TestHospital {
 		us.emergencyServices();  //common method
 		
 		//us.entServices(); //can't access overridden method from UK
-	
 		
-		//with help of uk -> can access only all the overridden method from only UK and common method.
 		UKMedical uk = new FortisHospital();
 		uk.entServices();
 		uk.dentalServices();
 		uk.emergencyServices(); //common
 	
 		
-		//with help of in -> can access only all the overridden method from only Indian and common method.
 		IndianMedical in = new FortisHospital();
 		in.oncologyServices();
 		in.gynicServices();

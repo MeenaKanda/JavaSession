@@ -1,8 +1,7 @@
 package SeleniumSessions;
 
 public class SwitchCaseConcepts {
-	// it will not check each and everyline/cases. directly jump to the exact case and execute
-	// at first time switch will decide where exactly it has to jump. compiler will decide where to jump
+	
 	public static void main(String[] args) {
 		
 		String browser = "ie";
@@ -100,15 +99,6 @@ public class SwitchCaseConcepts {
 	default:
 		break;
 	}
-	
-	
-  //real time use case of switch case:
-	//1. cross browser logic
-    //2. ecomm - multiple - language
-	//3. multi environment: DEV, QA, STAGE, UAT, PROD
-	//4. API methods: GET, POST, PUT, DELETE
-	//5. DropDown: Single, Multiple, All
-	//6. Payment Methods: CC, UPI, PAYPAL, zoom, Wu, Bank
 	
 	
 	

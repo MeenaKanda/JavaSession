@@ -68,48 +68,47 @@ public class LoopConcept {
 		// print Anjali 5 time
 		int n = 1;
 		while (n <= 5) {
-			System.out.println(n + " = "+ "Anjali");
+			System.out.println(n + " = " + "Anjali");
 			n++;
 		}
 		System.out.println("-----------------------------");
-		
+
 		// to break the infinity loop use if condition to break.
-		//once we reach specific target/condition we get out of loop using if condition
+		// once we reach specific target/condition we get out of loop using if condition
 		int counter = 100;
-		while(counter>=100) {
+		while (counter >= 100) {
 			System.out.println(counter);
-			
-			if(counter == 200) {
+
+			if (counter == 200) {
 				System.out.println("bye!!");
-				break;   // this break entire while loop
+				break; // this break entire while loop
 			}
 			counter++;
 		}
 
 		System.out.println("-----------------------------");
-		
+
 		// using if condition in while loop
 		int score = 0;
-		while(score<=100) {
+		while (score <= 100) {
 			System.out.println(score);
-			if(score == 25) {
+			if (score == 25) {
 				System.out.println("score is 25....yay");
-				}
-			if(score ==50) {
+			}
+			if (score == 50) {
 				System.out.println("half...century");
 			}
-			if(score ==100) {
+			if (score == 100) {
 				System.out.println("century");
 			}
 			score++;
 		}
 		System.out.println("-----------------------------");
-		
-		
-	// using swith case in while loop	
+
+		// using swith case in while loop
 		int score1 = 0;
-		while(score1<=100) {
-		//	System.out.println(score1);
+		while (score1 <= 100) {
+			// System.out.println(score1);
 			switch (score1) {
 			case 25:
 				System.out.println(score1);
@@ -118,7 +117,7 @@ public class LoopConcept {
 			case 50:
 				System.out.println(score1);
 				System.out.println("half ...century");
-				break;	
+				break;
 			case 100:
 				System.out.println(score1);
 				System.out.println("century");
@@ -130,17 +129,7 @@ public class LoopConcept {
 			}
 			score1++;
 		}
-		
+
 	}
-	
-	//while loop use cases:
-	// 1. when number of iteratin are not fixed.
-	//2. infinite loading: linkedin, swiggy, facebook
-	//3. waiting for the page load: 5sec, 10 sec, 15 sec
-	//4. wait for element on the page: 5,0 15, 20
-	// 5.calendar handling
-	// 6. pagination in webtable
 
 }
-
-

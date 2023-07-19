@@ -1,19 +1,6 @@
 package MethodsCallByValue;
 
 public class Employee {
-	//we can not call constructor in call by reference.only methods
-	
-	//call by value-> calling a method by passing a value is called call be value.
-	//In c language we have call by reference in the form of pointers.but In java no concepts of pointers
-	//call by reference -> in java we have Object and Object references
-	//call by reference -> call a method by passing a class reference is called call by ref
-	//in java one object can have 2 or more references
-	//in call by ref we dont supply the value , we supply/passing the ref of the object.
-	//call by reference ex in selenium : in page object module, page chaining module that is called zigzag pattern
-	//In call by reference-> we can not call constructor by call by ref. constructor will be called when create the object.
-	
-	//adv of call by ref ->only one obj we created.if we have 10 methods we have to create 10 obj unnecessarily.
-	//here with creating one obj we can have n no of ref .
 	
 	String name;
 	int age;

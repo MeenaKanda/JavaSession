@@ -48,5 +48,4 @@ public class Employee {
 
 }
 
-//Object reference name cannot be duplicate.
 

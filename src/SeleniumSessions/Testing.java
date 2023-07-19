@@ -38,9 +38,7 @@ public class Testing {
 	//    name: launch(browserName -- String)
 	      //Logic
 	      //return: true/false: Boolean 
-	
-	
-	//trim()--> trim ignore before and after space . not ignore between space between characters
+		
 	
 	public boolean launchBrowser(String browserName) {
 		System.out.println("launching browser : " + browserName );

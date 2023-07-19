@@ -1,9 +1,6 @@
 package SeleniumSessions;
 
 public class Student {
-	//return should be the last statement of the logic.
-	//we can not write any statement after return . it give unreachable code error
-	
 	
 	//WAF:
 	//give the studentName(String) as a parameter
@@ -52,8 +49,6 @@ public class Student {
 		return total;
 	}
 	 	
-	
-	
 
 	public static void main(String[] args) {
 		

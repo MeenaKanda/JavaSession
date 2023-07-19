@@ -2,14 +2,9 @@ package OOP_Interface;
 
 public class FortisHospital extends Hospital implements USMedical, UKMedical, IndianMedical {
 	
-	int min_fee = 50; // there is no word-> variable overriding. //this is class vars
+	int min_fee = 50; 
 	
-	// FH has responsibility to provide business logic of USMedical methods.
-	// FH have to implement all the methods for USMedical/override all methods from USM
-	// if you add any new method in USM , it gives you error in fortis to
-	// implement/override the same method in fortis
-	// FH can have their own individual methods also.
-
+	
 	// from USMedical
 	@Override
 	public void cardioServices() {

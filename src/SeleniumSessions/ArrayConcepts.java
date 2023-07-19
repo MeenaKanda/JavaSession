@@ -15,15 +15,13 @@ public class ArrayConcepts {
 		//1. size is fixed: static array: to overcome this we have to use dynamic array(ArrayList)
 		//2. only similar type of data can be stored: to overcome this issue, we can use Object static Array
 		
-		
-		
 //		li = 0
 //		len = 4;		
 //      hi = len - 1
 //      len = hi + 1
 		
 		
-		int i[] = new int[4];  // give me a new memory allocation of int type. and how many value you want(4)
+		int i[] = new int[4]; 
       //  int []i = new int[4];
 		//inside memory 4 segments/memory allocation are created.int=4bytes. so total size of array=4*4=16
 		//lowest index of array = 0 

@@ -1,12 +1,7 @@
 package BuilderPattern;
 
 public class UserShopping {
-//in ecommorce application and uber we have flow.
-	//chaining of methods,we can manipulate any method flow(user flow) according to requirement
-	//this way of writing a method is called a builder pattern.
-	//each user get different object
-	//advantage-> able to achieve builder pattern(chaining of methods),manipulate the direction anywhere in any direction    
-	//better readability
+
 	public static void main(String[] args) {
 		
          EcommAppllication app = new EcommAppllication();
@@ -40,7 +35,7 @@ public class UserShopping {
 	
 	
 	
-//	EcommAppllication app1 = new EcommAppllication();
+
 	
 	}
 

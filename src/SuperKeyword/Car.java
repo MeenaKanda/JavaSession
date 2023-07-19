@@ -30,12 +30,5 @@ public class Car {
 	public Car() {
 		System.out.println("Car const");
 	}
-	
-	
-
 }
  
-//can we call parent class and current class constructor at the same time?
-//ans: no
-
-//can we use super keyword in interface?

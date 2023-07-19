@@ -10,6 +10,5 @@ public interface Constants {
     int DEFAULT_TIME_OUT = 20;
     int DEFAULT_PAGE_LOAD_TIME_OUT = 30;
     	
-    //what is the advantage of maintaining variable static and final?
-    //reusability. instead of writing 200 times. we just reuse it
+   
 }

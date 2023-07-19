@@ -6,9 +6,6 @@ public class ArrayListGenerics1 {
 
 	public static void main(String[] args) {
 		
-		//ArrayList<Integer> numList ; --> default value of numList is null
-		//default value of any class ref variable is null ,if don't create new class obj (new ArrayList<Integer>();)
-		
 		ArrayList<Integer> numList = new ArrayList<Integer>();
 		 
 		numList.add(100);

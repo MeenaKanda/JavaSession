@@ -4,10 +4,6 @@ public class TimeComplexityConcept {
 
 	public static void main(String[] args) {
 		
-		//optimize--> better performance of code
-		//Optimization are calculated in the form of time complexity
-		//time complexity is denoted by BIG O : O(n). n--> no of iteration  
-
 		
 		//  time complexity O(1)
 		int i = 1;
@@ -67,7 +63,6 @@ public class TimeComplexityConcept {
 		
 	}
 	
-	//more iteration you add more and more time it take
 	
 
 }

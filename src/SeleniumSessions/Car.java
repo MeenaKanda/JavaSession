@@ -2,14 +2,6 @@ package SeleniumSessions;
 
 public class Car {
 	
-	//whenever you have common property value(wheels = 4) (4 is value of variable) , the property should be define as static.
-	//Java will create only one common copy of static variable
-	//static variables and methods stored in Common Memory Allocation (CMA). not inside the object
-	//static cannot be used for local variables. only used for class variables
-	//static can only be used for class variables which can have common property value.
-	//final keyword -> can be used for class and local variables.
-	//final -> we can not change the value.
-	//final keyword variable should declare a value.
 	
 	String name;
 	int price;
